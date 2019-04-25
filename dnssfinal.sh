@@ -33,5 +33,5 @@ rm /etc/hosts
 rm /etc/resolv.conf
 
 nslookup www.google.com
-echo "ban gyi script"
+echo "yourd ns is now configured"
 
