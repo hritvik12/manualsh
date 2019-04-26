@@ -4,16 +4,14 @@ echo " Welcome to apache config "
 
 sudo yum install httpd* -y
 
-
-wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/1.conf'
 echo "input your ip address"
 
 read ip_address
 
-echo "<virtualhost $ip_address:80>"  > /etc/httpd/conf.d/1.conf
-
-
-
+echo "<virtualhost $ip_address:80>
+servername www.google.com
+documentroot /var/www/html
+</virtualhost>"  > /etc/httpd/conf.d/1.conf
 
 cp 1.conf /etc/httpd/conf.d/
 
