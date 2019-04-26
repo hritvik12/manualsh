@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "yeh samba ki script ha"
+echo "Installing server side samba"
 
 yum install samba-* -y
 
