@@ -18,7 +18,7 @@ wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/apache
 . apache180.sh;;
 "4")
 wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/sambas.sh' -P /
-
+. sambas.sh;;
 
 
 esac
