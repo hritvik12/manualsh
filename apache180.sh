@@ -13,8 +13,6 @@ servername www.google.com
 documentroot /var/www/html
 </virtualhost>"  > /etc/httpd/conf.d/1.conf
 
-cp 1.conf /etc/httpd/conf.d/
-
 wget https://raw.githubusercontent.com/hritvik12/hritviksc/master/index.html 
 
 cp index.html /var/www/html/
