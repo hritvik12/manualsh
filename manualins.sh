@@ -10,7 +10,7 @@ wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/yummy.
 . yummy.sh;;
 
 "2")
-wget -A.conf 'https://raw.githubusercontent.com/hritvik12/hritviksc/master/dnssfinal.sh' -P /
+wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/dns' -P /
 . dnssfinal.sh;;
 
 "3")
