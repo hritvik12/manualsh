@@ -10,8 +10,8 @@ wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/yummy.
 . yummy.sh;;
 
 "2")
-wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/dns.sh' -P /
-. dns.sh;;
+wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/dns1.sh' -P /
+. dns1.sh;;
 
 "3")
 wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/maria.sh' -P /
