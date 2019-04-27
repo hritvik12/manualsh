@@ -11,7 +11,7 @@ wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/yummy.
 
 "2")
 wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/dns' -P /
-. dnssfinal.sh;;
+. dns.sh;;
 
 "3")
 wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/maria.sh' -P /
