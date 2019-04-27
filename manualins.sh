@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Hello World"
-echo "1. yum 2.dnsfinal 3.apache 4.samba"
+echo "1. yum 2.dnsfinal 3.mariadb 4.samba 5.useradd"
 read CHOICE
 
 
@@ -14,11 +14,15 @@ wget -A.conf 'https://raw.githubusercontent.com/hritvik12/hritviksc/master/dnssf
 . dnssfinal.sh;;
 
 "3")
-wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/apache180.sh' -P /
-. apache180.sh;;
+wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/maria.sh' -P /
+. maria.sh;;
 "4")
 wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/sambas.sh' -P /
 . sambas.sh;;
+"5")
+wget -A.conf 'https://raw.githubusercontent.com/hritvik12/manualsh/master/useradd.sh' -P /
+. useradd.sh;;
+
 
 
 esac
